@@ -471,7 +471,7 @@ section[id],
   font-family: var(--font-sans);
   font-size: clamp(48px, 10vw, 116px);
   font-weight: 900;
-  color: var(--brand-orange);
+  color: #E31837 !important;
   letter-spacing: 0.02em;
   margin: 4px 0;
 }
@@ -1393,19 +1393,19 @@ section[id],
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 34px;
-  height: 34px;
+  width: 36px;
+  height: 36px;
   border-radius: 50%;
-  background: var(--brand-forest);
-  color: #FFFDF7;
+  background: #25D366;
+  color: #FFFFFF;
   flex-shrink: 0;
-  box-shadow: 0 3px 10px rgba(53, 27, 15, 0.45);
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.25);
 }
 
 .whatsapp-icon-circle svg {
-  width: 18px;
-  height: 18px;
-  fill: currentColor;
+  width: 20px;
+  height: 20px;
+  fill: #FFFFFF;
 }
 
 .whatsapp-pulse-dot {
@@ -1463,10 +1463,10 @@ section[id],
   margin-top: 14px;
   padding: 12px 18px;
   border-radius: var(--radius-full);
-  background: var(--brand-forest);
-  color: var(--brand-mint) !important;
+  background: #111111;
+  color: #FFFFFF !important;
   font-size: 14px;
-  font-weight: 600;
+  font-weight: 700;
   text-decoration: none;
   border: 1px solid var(--border-color);
   transition: transform 0.2s var(--spring-ease), background 0.2s ease, box-shadow 0.2s ease;
@@ -1474,18 +1474,30 @@ section[id],
 
 .visit-whatsapp-action:hover {
   transform: translateY(-2px);
-  background: var(--brand-orange);
-  box-shadow: 0 6px 18px rgba(35, 18, 11, 0.2);
+  background: #25D366;
+  border-color: #25D366;
+  box-shadow: 0 6px 18px rgba(37, 211, 102, 0.35);
+  color: #FFFFFF !important;
 }
 
 .visit-whatsapp-action .whatsapp-icon-circle {
-  width: 24px;
-  height: 24px;
+  width: 26px;
+  height: 26px;
+  background: #25D366;
+}
+
+.visit-whatsapp-action:hover .whatsapp-icon-circle {
+  background: #FFFFFF;
+}
+
+.visit-whatsapp-action:hover .whatsapp-icon-circle svg {
+  fill: #25D366;
 }
 
 .visit-whatsapp-action .whatsapp-icon-circle svg {
-  width: 14px;
-  height: 14px;
+  width: 16px;
+  height: 16px;
+  fill: #FFFFFF;
 }
 
 @media (max-width: 600px) {
