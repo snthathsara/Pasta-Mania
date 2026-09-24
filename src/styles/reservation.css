@@ -113,8 +113,8 @@
 }
 
 [data-theme="dark"] .direct-badge-dot {
-  background-color: #FFB800;
-  box-shadow: 0 0 8px rgba(255, 184, 0, 0.8);
+  background-color: var(--brand-orange);
+  box-shadow: 0 0 8px rgba(227, 24, 55, 0.8);
 }
 
 .direct-booking-title {
