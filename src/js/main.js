@@ -54,4 +54,12 @@ document.addEventListener('DOMContentLoaded', () => {
       window.scrollTo({ top: 0, behavior: 'smooth' });
     });
   }
+
+  // Handle direct hash navigation on initial load
+  if (window.location.hash) {
+    const el = document.querySelector(window.location.hash);
+    if (el) {
+      el.scrollIntoView({ behavior: 'auto', block: 'start' });
+    }
+  }
 });
