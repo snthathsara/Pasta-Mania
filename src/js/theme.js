@@ -3,8 +3,9 @@ const THEME_STORAGE_KEY = 'pastamania-theme-preference';
 export function initTheme() {
   const toggleBtn = document.getElementById('theme-toggle-btn');
   
-  // Strictly default to light mode unless the user explicitly toggled it
-  let currentTheme = localStorage.getItem(THEME_STORAGE_KEY) || 'light';
+  // Support ?theme=dark / ?theme=light query parameter or fallback to localStorage
+  const urlParams = new URLSearchParams(window.location.search);
+  let currentTheme = urlParams.get('theme') || localStorage.getItem(THEME_STORAGE_KEY) || 'light';
   
   applyTheme(currentTheme);
 
