@@ -1,34 +1,35 @@
-# MELT Burgers — Official Web Experience
+# PastaMania Sri Lanka — Official Web Experience
 
-An editorial, high-end web experience crafted for **MELT Burgers**, located in **Dehiwala (Waidya Road) & Colombo 03, Sri Lanka**.
+An editorial, high-end Italian web experience crafted for **PastaMania Sri Lanka**, located at **502 R A De Mel Mw (Colombo 03)** and **Level 05, Food Studio, One Galle Face Mall, Colombo**.
 
-**Burger Restaurant | Your favourite burgers | Subs | Fries ! | Dine In + Takeaway | 100% Halal 🙏🏽**
+**🍝 Pasta cravings start — and end — here 🍴 | Italian Restaurant | Dine In · Takeaway · Delivery**
 
 ---
 
-## ✨ Design & Brand Highlights
+## ✨ Design & Brand Rebranding Highlights
 
-- **Signature Melt Yellow & Royal Purple Theme**:
-  - Melt Golden Cheddar Yellow (`#FFB800`, `#F59E0B`, `#FEF3C7`), Deep Royal Midnight Purple (`#260B3B`, `#3A1258`, `#52197A`), and warm buttery cream surfaces (`#FFFDF7`).
-  - Seamless Light and Dark modes inspired directly by the official brand logo.
+- **Signature Red, Black & White Italian Palette**:
+  - Authentic Italian Red (`#E31837`, `#C8102E`, `#DC2626`), Deep Charcoal & Obsidian Black (`#111111`, `#18181B`, `#0A0A0A`), and Crisp Italian Linen White (`#FFFFFF`, `#FAFAFA`, `#FFF5F5`).
+  - Seamless Light and Dark modes styled around the bold PastaMania logo.
 - **Editorial Typography & Visual Hierarchy**:
-  - Chunky retro display serif powered by **Fraunces** with stacked repeating typography.
-  - "Burgers that truly melt in your mouth" typographic quote ribbon.
-  - "IT'S BURGER O'CLOCK" graphic banner.
-  - Transparent smash burger cutout floating over the hero headline.
+  - Preserved the elegant typography pairings: **Fraunces** (Chunky Vintage Display Serif), **Inter** (Clean Geometric Sans), and **JetBrains Mono**.
+  - Stacked repeating "PASTAMANIA" typography with a transparent, appetizing Italian Carbonara pasta bowl floating over the headline.
+  - "Pasta cravings start — and end — here." typographic quote ribbon.
+  - "IT'S PASTA O'CLOCK" graphic banner.
 - **Instagram Story Highlights Bar**:
-  - Burgers & Subs 🍔, Loaded Fries 🍟, Specialty Coffee ☕, Beverages & Shakes 🥤 with interactive scroll-to triggers.
+  - Artisan Pasta 🍝, Starters & Sides 🥖, Italian Coffee ☕, Coolers & Shakes 🥤 with interactive scroll-to triggers.
 - **Crafted 4-3-4-3 Menu Structure**:
-  - **Mains (4)**: Melt Signature Double Beef Burger, Crispy Buttermilk Chicken Burger, Carnival Monster Burger, Signature Crispy Chicken Submarine.
-  - **Snacks (3)**: Slutty Crispy Chicken Loaded Fries, Glazed Wings (Mango BBQ & Kochchi), Melt Cajun Seasoned Fries & Warm Cheese Dip.
-  - **Coffee & Hot Drinks (4)**: Melt Signature Iced Spanish Latte, Salted Caramel Melt Latte, Artisan Double Flat White, Single-Origin Cold Brew & Tonic.
-  - **Beverages & Shakes (3)**: Loaded Lotus Biscoff Thick Shake, Belgian Chocolate Velvet Shake, Passionfruit Mojito Cooler.
+  - **Mains (4)**: Creamy Carbonara Pasta, Beef Bolognese Pasta, Prawn Aglio Olio, Creamy Tuscan Chicken & Mushroom.
+  - **Snacks & Starters (3)**: Crispy Garlic Bread with Melted Mozzarella, Crispy Mozzarella Cheese Sticks, Creamy Wild Mushroom Soup & Garlic Crostini.
+  - **Italian Coffee & Sips (4)**: Signature Iced Vanilla Hazelnut Latte, Classic Italian Cappuccino, Artisan Double Espresso Romano, Iced Caramel Macchiato.
+  - **Beverages & Coolers (3)**: Sparkling Strawberry Basil Spritz, Sicilian Blood Orange & Mint Cooler, Creamy Tiramisu Espresso Frappe.
 - **Live Restaurant Status Engine**:
-  - Automatically calculates Sri Lanka time (Asia/Colombo) and displays real-time open/closed status for operating hours: **Daily 1:30 PM – 11:00 PM**.
-- **Direct WhatsApp Chat & Order Channels**:
-  - Official hotline and WhatsApp: `+94 75 735 2707`.
-  - Instagram connection: [@meltinyour.mouth](https://www.instagram.com/meltinyour.mouth/).
-  - Google Maps navigation: Waidya Road, Dehiwala-Mount Lavinia.
+  - Automatically calculates Sri Lanka time (Asia/Colombo) and displays real-time open/closed status for operating hours: **Daily 11:00 AM – 11:00 PM**.
+- **Locations & Direct Booking Channels**:
+  - 📍 **Branch 1**: 502 R A De Mel Mw (Duplication Road), Colombo 03.
+  - 📍 **Branch 2**: Level 05, Food Studio, One Galle Face Mall, Colombo 01.
+  - Instagram connection: [@pastamaniasrilanka](https://www.instagram.com/pastamaniasrilanka/).
+  - Direct WhatsApp order & inquiry channels.
 
 ---
 

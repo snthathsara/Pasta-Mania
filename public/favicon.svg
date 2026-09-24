@@ -1,19 +1,15 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
-  <!-- Outer Purple Ring -->
-  <circle cx="32" cy="32" r="31" fill="#35154D" stroke="#FFBA08" stroke-width="2"/>
-  <!-- Golden Yellow Face Disc -->
-  <circle cx="32" cy="32" r="27" fill="#FFBA08"/>
-  <!-- Wavy Purple Hair on Top -->
-  <path d="M19 28c-2.5-3-3-8 1-12 4-4 10-4 13-1 2-2 7-3 10-1 4 2 5 7 3 11 3 2 4 6 3 9-1 2-3 4-5 4-1 3-4 5-8 5-2 0-3-1-4-2-2 2-6 2-8 0-3 1-6-1-7-4-2-2-1-6 2-9Z" fill="#35154D"/>
-  <!-- Face Cutout / Highlights -->
-  <circle cx="28" cy="31" r="2.5" fill="#35154D"/>
-  <circle cx="38" cy="31" r="2.5" fill="#35154D"/>
-  <!-- Cute Nose -->
-  <path d="M33 34c1 1.5 2 1.5 2.5 0" stroke="#35154D" stroke-width="1.8" stroke-linecap="round"/>
-  <!-- Smiling Mouth with Tongue Licking Lip -->
-  <path d="M26 38c3 4 12 4 15 0" stroke="#35154D" stroke-width="2" stroke-linecap="round"/>
-  <path d="M33 39c0 2.5 2 4.5 4.5 4.5 2.5 0 3.5-2 3.5-4.5Z" fill="#35154D"/>
-  <!-- Playful sauce drop -->
-  <circle cx="43" cy="46" r="1.5" fill="#35154D"/>
-  <circle cx="45" cy="50" r="1" fill="#35154D"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120">
+  <defs>
+    <linearGradient id="favRed" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E31837" />
+      <stop offset="100%" stop-color="#B91C1C" />
+    </linearGradient>
+  </defs>
+  <circle cx="60" cy="60" r="56" fill="url(#favRed)" stroke="#FFFFFF" stroke-width="4"/>
+  <g transform="translate(60, 52)">
+    <path d="M -12 -22 L -12 -8 C -12 -3 -8 0 -3 2 L -3 26 L 3 26 L 3 2 C 8 0 12 -3 12 -8 L 12 -22 L 9 -22 L 9 -10 C 9 -8 7 -8 7 -10 L 7 -22 L 4 -22 L 4 -10 C 4 -8 2 -8 2 -10 L 2 -22 L -1 -22 L -1 -10 C -1 -8 -3 -8 -3 -10 L -3 -22 L -6 -22 L -6 -10 C -6 -8 -8 -8 -8 -10 L -8 -22 Z" fill="#FFFFFF"/>
+    <path d="M -18 -6 Q 0 4 18 -6 Q 22 2 12 7 Q 0 11 -14 5 Q -22 14 -4 14 Q 8 14 16 11" fill="none" stroke="#FFD700" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <rect x="20" y="82" width="80" height="18" rx="9" fill="#111111"/>
+  <text x="60" y="94.5" font-family="'Inter', sans-serif" font-weight="900" font-size="9" fill="#FFFFFF" text-anchor="middle" letter-spacing="1">PASTA</text>
 </svg>

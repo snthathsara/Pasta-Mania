@@ -1,7 +1,10 @@
-// Live Restaurant Status Manager for MELT Burgers (Dehiwala & Colombo 03)
+// Live Restaurant Status Manager for PastaMania Sri Lanka
+// Locations:
+// - 502 R A De Mel Mw, Colombo 03
+// - Level 05, Food Studio, One Galle Face Mall
 // Operating Hours:
-// - Monday – Sunday (Daily): 1:30 PM – 11:00 PM
-// - Dine In + Takeaway | 100% Halal
+// - Monday – Sunday (Daily): 11:00 AM – 11:00 PM
+// - Dine In, Takeaway & Delivery
 
 export function initAmbiance() {
   updateCafeStatus();
@@ -44,7 +47,7 @@ function getSriLankaTime() {
   }
 }
 
-// Live MELT Restaurant Open/Closed Status
+// Live PastaMania Restaurant Open/Closed Status
 export function updateCafeStatus() {
   const statusBadge = document.getElementById('hero-status-badge');
   const pulseDot = document.getElementById('status-pulse-dot');
@@ -55,7 +58,7 @@ export function updateCafeStatus() {
 
   const { decimalTime } = getSriLankaTime();
 
-  const openTime = 13.5;  // 1:30 PM
+  const openTime = 11.0;  // 11:00 AM
   const closeTime = 23.0; // 11:00 PM
 
   let isOpen = false;
@@ -68,15 +71,15 @@ export function updateCafeStatus() {
     label = 'Open Today';
     sub = 'Closes at 11:00 PM · Dine In & Takeaway';
   } else if (decimalTime < openTime) {
-    // Early before 1:30 PM
+    // Early before 11:00 AM
     isOpen = false;
     label = 'Closed Now';
-    sub = 'Opens at 1:30 PM today in Dehiwala & Colombo 03';
+    sub = 'Opens at 11:00 AM today at R.A. De Mel Mw & One Galle Face';
   } else {
     // Late night after 11:00 PM
     isOpen = false;
     label = 'Closed Tonight';
-    sub = 'Opens at 1:30 PM tomorrow in Dehiwala & Colombo 03';
+    sub = 'Opens at 11:00 AM tomorrow at R.A. De Mel Mw & One Galle Face';
   }
 
   // Update UI Elements
